@@ -1,0 +1,10 @@
+ssm-bastion-module:
+  - changed-files:
+      - any-glob-to-any-file: '**'
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "diagrams/**"
+          - "documentation/**"
+          - "README.md"
