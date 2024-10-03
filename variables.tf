@@ -46,6 +46,11 @@ variable "ami_name" {
   default     = "diso-devops/bastion/ubuntu-jammy-22.04-amd64-server-generic-*"
 }
 
+variable "ami_owners" {
+  type    = list(any)
+  description = "The owning AWS Account ID of the ami."
+}
+
 variable "assume_role" {
   type        = string
   description = "The name for the role the instance assumes for S3 bucket access"

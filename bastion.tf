@@ -1,6 +1,6 @@
 data "aws_ami" "ubuntu" {
   most_recent = true
-  owners      = ["683290208331"] # shared services account
+  owners      = var.ami_owners
 
   filter {
     name   = "name"
