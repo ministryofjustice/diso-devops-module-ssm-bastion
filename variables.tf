@@ -47,7 +47,7 @@ variable "ami_name" {
 }
 
 variable "ami_owners" {
-  type    = list(any)
+  type        = list(any)
   description = "The owning AWS Account ID of the ami."
 }
 
