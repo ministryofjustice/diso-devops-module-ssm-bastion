@@ -5,7 +5,7 @@ module "rds_admin_bastion_label" {
 }
 
 module "rds_admin_bastion" {
-  source                      = "git::https:github.com:ministryofjustice/diso-devops-module-ssm-bastion.git?depth=1"
+  source                      = "github.com/ministryofjustice/diso-devops-module-ssm-bastion.git?depth=1"
   ami_owners                  = ["${var.shared_services_account_id}"]
   associate_public_ip_address = false
   assume_role                 = local.s3-mojo_file_transfer_assume_role_arn
