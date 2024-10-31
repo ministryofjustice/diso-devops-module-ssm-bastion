@@ -5,7 +5,7 @@ terraform {
       ## this is set for NAC
       ## when NAC updated this branch can be deleted
       ## point NAC at latest main github hash
-      version = "~> 4.0"
+      version = "~> 5.0"
     }
   }
 }
