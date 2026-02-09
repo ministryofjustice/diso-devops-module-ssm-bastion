@@ -22,5 +22,6 @@ jobs:
       pull-requests: write
       security-events: write
     with:
+      TRIVY_IGNORES: '.trivyignore.yaml'
       REPO_TYPE: tf
       
