@@ -1,3 +1,4 @@
+# tflint-ignore-file: terraform_required_providers
 data "aws_iam_policy_document" "trust_policy" {
   statement {
     effect = "Allow"

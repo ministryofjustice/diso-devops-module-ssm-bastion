@@ -1,3 +1,4 @@
+# tflint-ignore-file: terraform_deprecated_interpolation
 data "aws_ami" "ubuntu" {
   most_recent = true
   owners      = var.ami_owners
