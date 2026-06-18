@@ -1,0 +1,13 @@
+misconfigurations:
+  - id: aws-vpc-no-public-egress-sgr
+    paths:
+      - "security_groups.tf"
+    statement: Misconfiguration was present before Trivy scanning was enforced.
+  - id: AVD-AWS-0131
+    paths:
+      - "bastion.tf"
+    statement: Misconfiguration was present before Trivy scanning was enforced.
+  - id: AVD-AWS-0028
+    paths:
+      - "bastion.tf"
+    statement: Misconfiguration was present before Trivy scanning was enforced.

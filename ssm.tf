@@ -1,3 +1,4 @@
+# tflint-ignore-file: terraform_required_providers, terraform_unused_declarations
 # Creating a random string for name interpolation
 resource "random_string" "this" {
   length  = 5
